@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Honeycomb.OpenTelemetry" Version="1.2.1" />
+    <PackageReference Include="Honeycomb.OpenTelemetry.AutoInstrumentations" Version="0.26.1-beta" />
+    <PackageReference Include="Honeycomb.OpenTelemetry.Instrumentation.AspNetCore" Version="0.26.1-beta" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.0.0-rc9.9" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
